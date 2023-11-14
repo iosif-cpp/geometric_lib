@@ -16,3 +16,8 @@ class RectangleTestCase(unittest.TestCase):
     def test_perimeter(self):
         self.assertEqual(perimeter(3, 4), 14)
         self.assertEqual(perimeter(4, 5), 18)
+
+
+    def negative_value(self):
+        self.assertEqual(area(-3, 2), 6)
+        self.assertEqual(perimeter(-3, 4), 14)

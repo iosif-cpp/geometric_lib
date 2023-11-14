@@ -20,5 +20,9 @@ class CircleTestCase(unittest.TestCase):
         self.assertEqual(perimeter(3), 18.84955592153876)
         self.assertEqual(perimeter(4), 25.132741228718345)
 
+    def negative_value(self):
+        self.assertEqual(perimeter(-3), 18.84955592153876)
+        self.assertEqual(perimeter(-4), 25.132741228718345)
+
 
 
