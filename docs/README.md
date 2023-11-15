@@ -212,6 +212,21 @@ print(perimeter(3))
 
 ---
 
+##Autotests success:
+
+#####N = 23(total completed autotests).
+#####X = 10(successfully passed tests).
+#####P = 0.43%(test success rate).
+
+<br>
+<br>
+<br>
+<br>
+
+Verdict: geometric_lib functions do not check the type of values ​​the user enters.
+
+---
+
 ##Project change history:
 | Hash | Date | Author | Comment |  
 |:------------------------------|:-----------------------------:|------------------------------:|:--------------------------|
@@ -220,3 +235,8 @@ print(perimeter(3))
 | aab72bf42b | Mon Sep 11 17:02:20 2023 | Iosif <osya.amer@gmail.com> | Added new file |
 | dc012b6271 | Mon Sep 11 17:02:20 2023 | Iosif <osya.amer@gmail.com> | Error was fixed |
 | 497b906dd6 | Mon Oct 2 15:15:59 2023 | Iosif <osya.amer@gmail.com> | docs: Added comments for all project functions|
+67b7a03144|Tue Nov 14 19:54:43 2023|Iosif <osya.amer@gmail.com>|test: added circle tests
+29bbf9913f|Tue Nov 14 20:01:07 2023|Iosif <osya.amer@gmail.com>|test: added rectagle tests
+17218fe7a4|Tue Nov 14 20:23:46 2023|Iosif <osya.amer@gmail.com>|test: added square tests
+edd5ab1f7c|Tue Nov 14 20:35:54 2023|Iosif <osya.amer@gmail.com>|test: added triangle tests
+e000daf6ab| Wed Nov 15 22:02:45 2023|Iosif <osya.amer@gmail.com>| merge: merge with documentation_408143
