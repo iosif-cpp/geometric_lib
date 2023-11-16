@@ -214,9 +214,11 @@ print(perimeter(3))
 
 ##Autotests success:
 
-#####N = 23(total completed autotests).
-#####X = 10(successfully passed tests).
-#####P = 0.43%(test success rate).
+##### N = 23(total completed autotests).
+
+##### X = 10(successfully passed tests).
+
+##### P = 65%(test success rate).
 
 <br>
 <br>
