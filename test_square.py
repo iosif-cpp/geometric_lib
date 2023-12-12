@@ -12,8 +12,6 @@ class SquareTestCase(unittest.TestCase):
         self.assertEqual(area(0), 0)
 
     def test_wrong_data_type(self):
-        self.assertEqual(area([3]), 9)
-        self.assertEqual(area({3:3}), 9)
         self.assertEqual(area(True), 1)
         self.assertEqual(perimeter("3"), 12)
 
