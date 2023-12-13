@@ -14,8 +14,6 @@ on:
       - cicd_408143
       - test_408143
 
-permissions:
-  contents: read
 
 jobs:
   job1:
@@ -27,7 +25,6 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.10"
-          architecture: x64
       - name: Run tests
         run: python3 -m unittest
   job2:
@@ -39,6 +36,5 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.10"
-          architecture: x64
       - name: Run tests
         run: python3 -m unittest
